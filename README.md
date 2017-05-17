@@ -1,7 +1,7 @@
 # Purdue-UNAL Gold IronHacks 2017
 <b>Name of application: </b> Chicago's Home Searcher
 
-<b>Author: </b> David Eduardo Hormaza Herfaoui (dehormazah@unal.edu.co/ davidhor12@gmail.com / davidhor12@hotmail.com) / Universidad Nacional de Colombia.
+<b>Author: </b> David Eduardo Hormaza Herfaoui. Universidad Nacional de Colombia.
 
 <b>Keywords: </b>  rental places, safety, affordability, traffic, students, University of Illinois.
 
