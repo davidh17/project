@@ -38,7 +38,7 @@ The user can interact with buttons or selection fields to perform the search of 
 
 <b>Test Case </b><br>
 The application works fully in browsers: Chrome, Firefox and Edge. For the IE browser case, there are some variations on the style or some elements of the site are not shown. On Safari, an alert appears announcing that the browser does not accept the video tag used to display the content at the beginning of the site.
-There are some inconsistencies in the adaptive design of the site, reducing the size of the browser window. Although I modified the code to use a scroll-bar when the window has a size smaller than the original (1270px) some elements are cluttered or remain on others. The bubble chart can not be displayed in the GitHub repository used as the host for the application. Also, in the host it is not possible to visualize the font (MODERNE SANS) used to construct the application. The graph and the font are perfectly displayed locally in any browser.
+There are some inconsistencies in the adaptive design of the site, reducing the size of the browser window. Although I modified the code to use a scroll-bar when the window has a size smaller than the original (1270px) some elements are cluttered or remain on others. The bubble chart can not be displayed in the GitHub repository used as the host for the application.
 <br>
 
 <b>Additional information </b><br>
@@ -46,7 +46,6 @@ The <b>index.html</b> file shows the basic structure and interface of the site. 
 At the end of the file is placed a map that indicates the initial position required and to the side appear some instructions for the user to start the search of his place to rent, through a dropdown field and a search button. The entire process of searching and outputting results is explained in detail to the user through the content of the page. All actions performed by the interaction elements in the application are commanded by specific functions that take the open data provided by the datasets, and through the processing of the same, allow the user to perform very precise searches to find the rent site more appropriate. On the home page it is also possible to find a random rental site by clicking on a button, this activates several subsequent actions, and allows the user to view the bubble chart and detailed information regarding a rental site.
 <br>
 <b>Important </b><br>
-<b>Application Hosting: http://davidh17.github.io. </b><br>
 To work with the rental sites available in Chicago for the user, I created a JSON-type file from the information provided by the Zillow API. Manually, I filtered rental sites in Chicago with parameters that seek to satisfy the need for affordability required by the user. Then, I added one by one the data of the rent sites in a 2-level data array, which consists of the following structure for each element: [latitude,longitude,property manager,address,rent price,number of bedrooms, number of baths, Square feet, phone]. In this way I can manipulate all the necessary data to help find the user the most convenient rental site, by analyzing the data. There are about 100 rental sites available to help a student at the University of Illinois to find a home in Chicago.<b> To have access to the complete functionality and styles of the mashup it should be downloaded locally.</b>
 
 
